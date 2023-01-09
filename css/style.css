@@ -94,6 +94,10 @@ padding-bottom: 33px;
     padding-bottom: 248px;
     background-color:  #E5E5E5;
 }
+.guides .container {
+    max-width: 1088px;
+    margin: auto;
+}
 .guides .title {
     max-width: 692px;
     margin: auto;
@@ -167,5 +171,6 @@ font-size: 17px;
 line-height: 20px;
 text-decoration-line: underline;
 color: #000000;
+margin-top: 10px;
 }
 
