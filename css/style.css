@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 header {
     padding: 16px 0 15px;
@@ -31,7 +32,7 @@ header nav ul {
 header nav ul li {
     margin-right: 28px;
 }
- header nav ul li a {
+header nav ul li a {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -97,6 +98,7 @@ padding-bottom: 33px;
 .guides .container {
     max-width: 1088px;
     margin: auto;
+    text-align: center;
 }
 .guides .title {
     max-width: 692px;
@@ -139,6 +141,29 @@ margin-bottom: 52px;
     display: flex;
     text-align: center;
     justify-content: space-around;
+}
+.sellers .owl-item{
+    margin: auto;
+}
+.sellers .owl-dots{
+    text-align: center;
+}
+.sellers .owl-dot span {
+    margin: 47px 3px 0 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid rgb(35, 152, 248);
+}
+.sellers .owl-dot.active span{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid yellow; 
+    background-color: rgb(35, 152, 248);   
 }
 .sellers article {
     max-width: 309px;
