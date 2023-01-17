@@ -137,6 +137,7 @@ color: #000000;
 margin-bottom: 52px;
 }
 .sellers {
+    max-width: 1064px;
     margin: auto;
     display: flex;
     text-align: center;
@@ -144,6 +145,7 @@ margin-bottom: 52px;
 }
 .sellers .owl-item{
     margin: auto;
+
 }
 .sellers .owl-dots{
     text-align: center;
