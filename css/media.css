@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768px) {
+    .features .items_description .item {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .features .items_description .item {
+        width: 100%;
+    }
+}
